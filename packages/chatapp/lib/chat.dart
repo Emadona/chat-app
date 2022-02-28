@@ -1,0 +1,25 @@
+// @dart=2.9
+library chatapp;
+
+export 'package:chatapp/src/models/message.dart';
+export 'package:chatapp/src/models/receipt.dart';
+export 'package:chatapp/src/models/isLike.dart';
+export 'package:chatapp/src/models/user.dart';
+export 'package:chatapp/src/models/typing_event.dart';
+export 'package:chatapp/src/services/encryption/encryption_contract.dart';
+export 'package:chatapp/src/services/encryption/encryption_service.dart';
+export 'package:chatapp/src/services/message/message_service_contract.dart';
+export 'package:chatapp/src/services/message/message_service_impl.dart';
+export 'package:chatapp/src/services/receipt/receipt_service_contract.dart';
+export 'package:chatapp/src/services/receipt/receipt_service_impl.dart';
+export 'package:chatapp/src/services/receipt/receipt_firebase_impl.dart';
+export 'package:chatapp/src/services/is_like/is_like_service_contract.dart';
+export 'package:chatapp/src/services/is_like/is_like_service_impl.dart';
+export 'package:chatapp/src/services/is_like/is_like_firebase_impl.dart';
+export 'package:chatapp/src/services/typing/typing_notification.dart';
+export 'package:chatapp/src/services/typing/typing_event_firebase.dart';
+export 'package:chatapp/src/services/typing/typing_notification_service_contract.dart';
+export 'package:chatapp/src/services/user/user_service_contract.dart';
+export 'package:chatapp/src/services/user/user_service_impl.dart';
+export 'package:chatapp/src/services/user/user_firebase_imp.dart';
+export 'package:chatapp/src/services/message/message_firebase_imb.dart';
